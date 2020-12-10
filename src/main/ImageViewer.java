@@ -6,12 +6,9 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Font;
 import java.awt.image.BufferedImage;
-import java.util.Random;
 
 public class ImageViewer extends JPanel {
-    private static Random rand = new Random();
     boolean isRunning = false;
-    private final int FPS = 10;
     BufferedImageManager bim;
     BufferedImage backBuffer;
     Graphics backBufferGraphics;
